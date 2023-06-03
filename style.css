@@ -6,6 +6,10 @@ body {
 .fa-route {
   color: orange;
 }
+.navbar-nav .active {
+  color: orange !important;
+  font-weight: bold;
+}
 .row-categories {
   margin: 2% 0 2% 0;
 }
