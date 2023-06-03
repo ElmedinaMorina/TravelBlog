@@ -1,0 +1,19 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.fa-route {
+  color: orange;
+}
+.row-categories {
+  margin: 2% 0 2% 0;
+}
+
+.card-categories {
+  text-align: center;
+}
+.categories-txt {
+  text-align: center;
+  padding-top: 5%;
+}
