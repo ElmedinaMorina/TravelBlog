@@ -44,9 +44,17 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 /*navbar*/
+.custom-navbar {
+  position: fixed;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(7.5px);
+
+  z-index: 999;
+}
+
 /*hero section*/
-.carousel-container {
-  position: relative;
+.carousel {
 }
 .hero_section {
   position: absolute;
