@@ -121,10 +121,14 @@ body {
   transition: all 0.5s ease-out;
 }
 
-.card-categories :hover {
+.card:hover img {
   box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.25);
   transform: translateY(-15px);
 }
+.card-categories:hover {
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.25);
+}
+
 .categories-txt {
   text-align: center;
   padding-top: 5%;
@@ -170,47 +174,11 @@ body {
   color: var(--tertiary);
 }
 /*Global tag section*/
-.tag_section {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-bottom: 1rem;
-}
-.tag_center {
-  width: 100%;
-  height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  flex-direction: column;
-  margin-bottom: 1rem;
-}
-.tag_title {
-  font-size: 1.7rem;
-  font-weight: 500;
-  color: var(--primary);
-  letter-spacing: 0.1rem;
-  margin-bottom: 0rem;
-}
-.tag_indicator {
-  display: flex;
-  align-items: center;
-  gap: 0;
-}
+
 .line {
   width: 90px;
   height: 2px;
   background: var(--secondary);
-}
-.circle {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--secondary);
-  margin-left: -0.2rem;
-  box-shadow: 0px 0px 8px rgb(226, 72, 6, 1);
 }
 
 /*join section*/
